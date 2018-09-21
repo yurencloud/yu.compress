@@ -1,10 +1,14 @@
 {
-  "name": "yurencloud",
-  "version": "1.0.0",
-  "description": "new yurencloud project",
+  "name": "yu.compress",
+  "version": "1.0.1",
+  "description": "compress image 图片压缩模块",
   "main": "index.js",
   "scripts": {},
   "keywords": [
+    "yu.compress",
+    "compress",
+    "imageCompress",
+    "compressImage",
     "yurencloud",
     "yuren",
     "yu",

@@ -15,6 +15,13 @@ var DEFAULT_OPTIONS = {
     base64: false // 默认返回blob格式图片，是否返回base64格式图片
 }
 
+
+/**
+ * 图片压缩
+ * @param  {object} file [图片文件]
+ * @param  {object} options [压缩参数]
+ * @return [blob,base64] compressedImage [压缩后的图片文件]
+ */
 function compress(file, options) {
     options = options || {}
     options = object.assign(DEFAULT_OPTIONS, options)
